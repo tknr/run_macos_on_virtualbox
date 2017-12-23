@@ -34,5 +34,6 @@ VBoxManage setextradata "$VBOX" "VBoxInternal2/EfiGopMode" 4
 
 #VBoxManage setextradata "$VBOX" "CustomVideoMode1" "1920x1080x32"
 #VBoxManage setextradata "$VBOX" "GUI/CustomVideoMode1" "1920x1080x32"
-
+VBoxManage setextradata "$VBOX" "CustomVideoMode1" "1440x900x32"
+VBoxManage setextradata "$VBOX" "GUI/CustomVideoMode1" "1440x900x32"
  
