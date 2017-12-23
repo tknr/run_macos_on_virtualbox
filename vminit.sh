@@ -12,17 +12,12 @@ if [ $# -eq 0 ]; then
 fi
 VBOX=$1
 
-## http://www.neko.ne.jp/~freewing/software/osx86_hackintosh_virtual_box/
-
-VBoxManage modifyvm "$VBOX" --cpuidset 00000001 000306a9 00020800 80000201 178bfbff
-
-VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "MacBookPro11,3"
-VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
-VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Mac-2BD1B31983FE1663"
-VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
-
-VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/efi/0/Config/DmiSystemSerial" "SERIAL_NO"
+VBoxManage.exe modifyvm "${VBOX}" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage setextradata "${VBOX}" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
+VBoxManage setextradata "${VBOX}" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+VBoxManage setextradata "${VBOX}" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+VBoxManage setextradata "${VBOX}" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata "${VBOX}" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
 
 ## VirtualBoxの OS Xの解像度の変更方法 
 ## 0  640 x  480
