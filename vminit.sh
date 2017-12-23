@@ -24,7 +24,7 @@ VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRea
 
 VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/efi/0/Config/DmiSystemSerial" "SERIAL_NO"
 
-##### 
+## VirtualBoxの OS Xの解像度の変更方法 
 ## 0  640 x  480
 ## 1  800 x  600
 ## 2 1024 x  768
@@ -33,6 +33,8 @@ VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/efi/0/Config/DmiSystemSeri
 ## 5 1900 x 1200
 VBoxManage setextradata "$VBOX" "VBoxInternal2/EfiGopMode" 4
 
+## VirtualBoxの OS Xを任意の解像度にする方法
 #VBoxManage setextradata "$VBOX" "CustomVideoMode1" "1920x1080x32"
 #VBoxManage setextradata "$VBOX" "GUI/CustomVideoMode1" "1920x1080x32"
- 
+
+
