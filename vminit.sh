@@ -21,6 +21,7 @@ VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/efi/0/Config/DmiSystemVers
 VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Mac-2BD1B31983FE1663"
 VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
 VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
+
 VBoxManage setextradata "$VBOX" "VBoxInternal/Devices/efi/0/Config/DmiSystemSerial" "SERIAL_NO"
 
 ##### 
@@ -34,6 +35,4 @@ VBoxManage setextradata "$VBOX" "VBoxInternal2/EfiGopMode" 4
 
 #VBoxManage setextradata "$VBOX" "CustomVideoMode1" "1920x1080x32"
 #VBoxManage setextradata "$VBOX" "GUI/CustomVideoMode1" "1920x1080x32"
-VBoxManage setextradata "$VBOX" "CustomVideoMode1" "1440x900x32"
-VBoxManage setextradata "$VBOX" "GUI/CustomVideoMode1" "1440x900x32"
  
