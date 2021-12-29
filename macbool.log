@@ -1,0 +1,70 @@
+develop@MacBook-Pro run_macos_on_virtualbox % ./show_osx_info.sh 
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro16,2
+      Processor Name: Quad-Core Intel Core i7
+      Processor Speed: 2.3 GHz
+      Number of Processors: 1
+      Total Number of Cores: 4
+      L2 Cache (per Core): 512 KB
+      L3 Cache: 8 MB
+      Hyper-Threading Technology: Enabled
+      Memory: 16 GB
+      System Firmware Version: 1715.80.2.0.0 (iBridge: 19.16.10725.5.1,0)
+      Serial Number (system): C02CT1VEML85
+      Hardware UUID: E78FA402-335D-520A-92EC-58B1D25465B7
+      Provisioning UDID: E78FA402-335D-520A-92EC-58B1D25465B7
+      Activation Lock Status: Enabled
+
++-o /  <class IOPlatformExpertDevice, id 0x100000114, registered, matched, active, busy 0 (77125 ms), retain 62>
+    {
+      "IOInterruptSpecifiers" = (<0900000005000000>)
+      "IOPolledInterface" = "SMCPolledInterface is not serializable"
+      "IOPlatformUUID" = "E78FA402-335D-520A-92EC-58B1D25465B7"
+      "serial-number" = <4d4c383500000000000000000043303243543156454d4c3835000000000000000000000000000000000000>
+      "platform-feature" = <3a00000000000000>
+      "IOPlatformSystemSleepPolicy" = <534c505402000a0008000000080000000000000000000000050000000000000005010000010000000000400000004000000010000000100007000000000000000fdd8701000000002000000020000000000000000000000005000000000000000fdd870100000000c416000000000000080000000800000005000000000000000fdd870100000000c416100000001000204$
+      "IOBusyInterest" = "IOCommand is not serializable"
+      "target-type" = <"Mac">
+      "IOInterruptControllers" = ("io-apic-0")
+      "name" = <"/">
+      "version" = <"1.0">
+      "manufacturer" = <"Apple Inc.">
+      "compatible" = <"MacBookPro16,2">
+      "product-name" = <"MacBookPro16,2">
+      "IOPlatformSerialNumber" = "C02CT1VEML85"
+      "IOConsoleSecurityInterest" = "IOCommand is not serializable"
+      "clock-frequency" = <0084d717>
+      "model" = <"MacBookPro16,2">
+      "board-id" = <"Mac-5F9802EFE386AA28">
+      "bridge-model" = <"J214kAP">
+      "system-type" = <02>
+    }
+    
+
++-o platform  <class IOService, id 0x100000113, !registered, !matched, active, busy 0, retain 6>
+    {
+      "apple-coprocessor-version" = <00000200>
+      "boot-chime-on-last-boot" = <05000000>
+      "Model" = <"M","a","c","B","o","o","k","P","r","o","1","6",",","2">
+      "FSBFrequency" = <00105e5f00000000>
+      "board-id" = <"Mac-5F9802EFE386AA28">
+      "board-rev" = <06>
+      "system-id" = <657b153b11de215d8baca827780b6a8b>
+      "ARTFrequency" = <00f0490200000000>
+      "StartupPowerEvents" = <4f00000000000000>
+      "InitialTSC" = <75a51d0600000000>
+      "device-colors" = <00020000a09d9d000000000000000000>
+      "IOCompatibilityProperties" = {"IOClass"="IOService","IOName"="platform","IOPath"="IODeviceTree:/efi/platform","system-id"=<dc31d7e0351aea58b1b44cfc314aa1e6>}
+      "DevicePathsSupported" = <01000000>
+      "name" = <"platform">
+      "SystemSerialNumber" = <"C","0","2","C","T","1","V","E","M","L","8","5">
+    }
+    
+
+4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ROM	%a8'%01%06gJ
+4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:MLB	C0202270186PCW311
+
